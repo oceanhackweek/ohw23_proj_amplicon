@@ -11,11 +11,14 @@ The purpose of this project is to analyse a dataset of 16S amplicon sequencing t
 
 Steps:
 - Demultiplex Illumina sequencing data (using `obitools/ngsfilter`).
+- Basic preprocessing and length filtering with [fastp](https://github.com/OpenGene/fastp/).
 - Create a custom reference database using only fish species from the OBITools reference database (see the [Wolves tutorial](https://pythonhosted.org/OBITools/wolves.html) for more information).
-- Run different bioinformatics pipelines
+- Run different bioinformatics pipelines.
   - [x] [nf-core/ampliseq](https://nf-co.re/ampliseq/)
   - [ ] [OBITools](https://pythonhosted.org/OBITools/welcome.html)
   - [ ] [Tourmaline](https://github.com/aomlomics/tourmaline)
+- Perform simple ecological analyses.
+- Compare results of pipelines.
   
 References:
 - Berry, Tina E., et al. "DNA metabarcoding for diet analysis and biodiversity: A case study using the endangered Australian sea lion (Neophoca cinerea)." *Ecology and Evolution* 7.14 (2017): 5435-5453.
