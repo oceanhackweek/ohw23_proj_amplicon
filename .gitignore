@@ -1,3 +1,8 @@
+# OHW23
+data/
+**/.DS_Store
+**/.ipynb_checkpoint
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
