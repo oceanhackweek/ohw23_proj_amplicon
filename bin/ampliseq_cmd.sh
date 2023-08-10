@@ -1,0 +1,11 @@
+nextflow run nf-core/ampliseq \
+    --input samplesheet.tsv \
+    --outdir results \
+    --skip_cutadapt \
+    -profile singularity \
+    -c ampliseq.config \
+    --single_end \
+    --dada_ref_tax_custom ../refdb/db_vnew_fish_only_dada2_custom.fasta \
+    --dada_ref_tax_custom_sp ../refdb/db_vnew_fish_only_dada2_custom_sp.fasta \
+    --ignore_empty_input_files \
+    -resume
