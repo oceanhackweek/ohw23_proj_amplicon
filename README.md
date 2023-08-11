@@ -15,7 +15,7 @@ Steps:
 - Create a custom reference database using only fish species from the OBITools reference database (see the [Wolves tutorial](https://pythonhosted.org/OBITools/wolves.html) for more information).
 - Run different bioinformatics pipelines.
   - [x] [nf-core/ampliseq](https://nf-co.re/ampliseq/)
-  - [ ] [OBITools](https://pythonhosted.org/OBITools/welcome.html)
+  - [x] [OBITools](https://pythonhosted.org/OBITools/welcome.html)
   - [ ] [Tourmaline](https://github.com/aomlomics/tourmaline)
 - Perform simple ecological analyses.
 - Compare results of pipelines.
